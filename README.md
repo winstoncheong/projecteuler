@@ -344,6 +344,16 @@ Find the maximum total from top to bottom of the triangle below:
 **Solution:** Created a consuming function from the bottom. 
 
 
+# 19: Counting Sundays (TODO)
+
+How many Sundays fell on the first of the month during the twentieth century (1 Jan 1901 to 31 Dec 2000)?
+
+# 20: Factorial digit sum
+
+Find the sum of the digits in the number 100!
+
+**Solution:** Trivial. Created two utility functions: `sum_of_digits` and `factorial`. 
+
 # 67: Maximum path sum II
 Find the maximum total from top to bottom in `p067_triangle.txt`, a 15K text file containing a triangle with one-hundred rows.
 
