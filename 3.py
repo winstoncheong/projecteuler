@@ -9,7 +9,7 @@ while True:
         n //= i
     
     i += 1
-    if i == n: # Last facotr
+    if i == n: # Last factor
         factors.append(i)
         break
 

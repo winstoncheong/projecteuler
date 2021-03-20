@@ -37,7 +37,6 @@ What is the smallest positive number that is evenly divisible by all of the numb
 
 **Solution:** Mathematically, this is just asking for the LCM of the numbers 1,...,20. 
 
-
 # 6: Sum square difference
 The sum of the squares of the first ten natural numbers is,
 $$1^2+2^2+\cdots+10^2 = 385$$
@@ -50,7 +49,6 @@ Hence the difference between the sum of the squares of the first ten natural num
 Find the difference between the sum of the squares of the first one hundred natural numbers and the square of the sum.
 
 **Solution:** Used closed-form formula for sum-of-squares and for triangular numbers.
-
 
 # 7: 10001st prime
 By listing the first six prime numbers: 2, 3, 5, 7, 11, and 13, we can see that the 6th prime is 13.
@@ -109,7 +107,6 @@ The sum of the primes below 10 is 2 + 3 + 5 + 7 = 17.
 
 Find the sum of all the primes below two million.
 
-
 **Solution:** WolframAlpha will just tell you. But to code it, I used Eratosthenes's sieve technique. Only need to sieve up to $\sqrt{2,000,000} \approx 1415$. Needed a bit of logic to make sure the loop exited correctly.
 
 # 11: Largest product in a grid
@@ -144,6 +141,10 @@ What is the greatest product of four adjacent numbers in the same direction (up,
 
 **Solution:** Just grid traversal. Multiple double-for loops to get every arrangement of 4 adjacent numbers. Had to be careful with indexing / range of the looping.
 
+# 12: Highly divisible triangular number
+What is the value of the first triangle number to have over 500 divisors?
+
+**Solution:** Calculate number of divisors by using the factorization of the number (from the powers of the primes). 
 
 # 13: Large sum
 
